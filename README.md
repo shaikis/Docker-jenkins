@@ -9,7 +9,7 @@ docker build -t jenkins:jenkins .
 docker run --name jenkins --rm -d -p 8080:8080 jenkins:jenkins 
 ```
 ```
-to intigrate genkins with Azure AD. 
+to intigrate jenkins with Azure AD. 
  > create application registration in azure AD. 
  > configure redirect URL with jenkins. 
 ```
