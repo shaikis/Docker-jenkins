@@ -9,7 +9,7 @@ Prerequisites:
 
 docker build -t jenkins:jenkins .
 ##### This step involves downloading and installing many plugins into the image, and may take some time to run depending on your internet connection. Once the plugins have finished installing, run the new Jenkins image:
-docker run --name jenkins --rm -d -p 8080:8080 jenkins:jenkins 
+docker run --name jenkins --rm -d -p 443:8443 -p 8080:8080 -p 50000:50000  jenkins:jenkinsv2 --httpPort=-1 --httpsPort=8443
 ```
 ```
 to intigrate jenkins with Azure AD. 
