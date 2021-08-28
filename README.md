@@ -35,3 +35,7 @@ To run jenkins on AWS/Azure services.
   > push the image to registry.
   > you can use ECS (or) EKS services to launch the docker image and to maintain HA. 
  ```
+
+```
+Plugin details available here :  https://updates.jenkins.io/dynamic-2.304//latest/
+```
