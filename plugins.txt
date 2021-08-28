@@ -18,3 +18,13 @@ ssh-slaves:latest
 timestamper:latest
 workflow-aggregator:latest
 ws-cleanup:latest
+azure-ad-plugin:latest
+azure-cli-plugin:latest
+terraform-plugin:latest
+ansible-plugin:latest
+ansible-tower-plugin:latest
+puppet-plugin:latest
+puppet-enterprise-pipeline-plugin:latest
+kubernetes-plugin:latest
+docker:latest
+blueocean-plugin:latest
