@@ -24,7 +24,6 @@ terraform:latest
 ansible:latest
 ansible-tower:latest
 puppet:latest
-puppet-enterprise-pipeline:latest
 kubernetes:latest
 docker:latest
 blueocean:latest
