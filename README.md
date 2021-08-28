@@ -13,6 +13,12 @@ docker run --name jenkins --rm -d -p 443:8443 -p 8080:8080 -p 50000:50000  jenki
 
 docker exec -it fef8f244fcaa bash
 cat /var/jenkins_home/secrets/initialAdminPassword
+
+add azure active directory plugins
+
+commit docker changes
+docker commit fef8f244fcaa  jenkins/jenkins:ltsv2
+
 ```
 ```
 to intigrate jenkins with Azure AD. 
